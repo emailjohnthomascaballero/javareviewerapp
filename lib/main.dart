@@ -6,7 +6,7 @@ void main() {
   FlutterNativeSplash.removeAfter(initialization);
   //! SPLASH SCREEN </>
 
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 //! SPLASH SCREEN
@@ -17,7 +17,7 @@ void initialization(BuildContext context) async {
   //await Future.delayed(const Duration(seconds: 1));
   print('ready in 1...');
   await Future.delayed(const Duration(seconds: 1));
-  print('go!');
+  print('start');
 }
 //! SPLASH SCREEN </>
 
@@ -29,9 +29,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Welcome to Flutter'),
-        ),
+        appBar: AppBar(),
+        drawer: Drawer(),
         body: const Center(
           child: Text('Hello World'),
         ),
