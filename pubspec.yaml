@@ -26,8 +26,8 @@ flutter_native_splash:
   android: true
   ios: true
 
-  background_image: "assets/splash_background.png"
-  image: assets/splash.png
+  background_image: "assets/splash_bg.png"
+  image: assets/splash_logo.png
 #! SPLASH SCREEN </>
 
   
