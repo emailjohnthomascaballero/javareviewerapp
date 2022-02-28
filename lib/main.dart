@@ -33,8 +33,22 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 39, 39, 39),
         ),
         drawer: Drawer(),
-        //!background image
+
         body: Container(
+          //! button
+          alignment: Alignment.bottomCenter,
+          padding: EdgeInsets.all(32),
+          child: ElevatedButton(
+            style: ElevatedButton.styleFrom(
+              minimumSize: Size(300, 50),
+              primary: Color.fromARGB(255, 63, 63, 63),
+            ),
+            child: Text('GET STARTED'),
+            onPressed: () {},
+          ),
+          //! button </>
+
+          //! background image
           decoration: BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/home_screen.png'),
