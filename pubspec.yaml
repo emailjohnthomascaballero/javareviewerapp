@@ -35,3 +35,7 @@ flutter:
 
   uses-material-design: true
 
+#!background image
+  assets:
+    - assets/
+#!background image </>

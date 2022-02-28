@@ -27,13 +27,22 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Java Reviewer App',
       home: Scaffold(
-        appBar: AppBar(),
-        drawer: Drawer(),
-        body: const Center(
-          child: Text('Hello World'),
+        appBar: AppBar(
+          backgroundColor: Color.fromARGB(255, 39, 39, 39),
         ),
+        drawer: Drawer(),
+        //!background image
+        body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/home_screen.png'),
+              fit: BoxFit.cover,
+            ),
+          ),
+        ),
+        //! background image </>
       ),
     );
   }
