@@ -55,8 +55,8 @@ class MyApp extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
+          //! background image </>
         ),
-        //! background image </>
       ),
     );
   }
