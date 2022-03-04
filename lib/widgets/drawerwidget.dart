@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../screens/homescreen.dart';
-import '../screens/secondscreen.dart';
+import '../screens/javascreen.dart';
 
 class DrawerWidget extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
