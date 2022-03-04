@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'secondscreen.dart';
+import 'javascreen.dart';
 import '../widgets/drawerwidget.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -24,8 +24,8 @@ class HomeScreen extends StatelessWidget {
           child: Text('GET STARTED'),
           // proceed to next screen
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => SecondScreen()));
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => JavaScreen()));
           },
           // proceed to next screen </>
         ),

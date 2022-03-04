@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import '../widgets/drawerwidget.dart';
 
-class SecondScreen extends StatelessWidget {
-  const SecondScreen({Key? key}) : super(key: key);
+class JavaScreen extends StatelessWidget {
+  const JavaScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
