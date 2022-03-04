@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '/screens/homescreen.dart';
 import '/screens/categoryscreen.dart';
+import '/screens/aboutscreen.dart';
 
 class DrawerWidget extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
@@ -68,7 +69,7 @@ class DrawerWidget extends StatelessWidget {
         break;
       case 2:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => AboutScreen(),
         ));
         break;
     }
