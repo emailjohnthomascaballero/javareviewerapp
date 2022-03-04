@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'secondscreen.dart';
+import '../widgets/drawerwidget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -7,6 +8,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: DrawerWidget(),
       appBar: AppBar(
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
