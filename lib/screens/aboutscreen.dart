@@ -9,7 +9,7 @@ class AboutScreen extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('about'),
+        title: Text('ABOUT'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(

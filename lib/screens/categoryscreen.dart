@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
-import '/screens/homescreen.dart';
-import '/screens/aboutscreen.dart';
+import 'homescreen.dart';
+import 'basicconceptscreen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
@@ -11,7 +11,7 @@ class CategoryScreen extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('category'),
+        title: Text('CATEGORY'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -87,7 +87,7 @@ class CategoryScreen extends StatelessWidget {
     switch (index) {
       case 0:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => BasicConceptsScreen(),
         ));
         break;
       case 1:

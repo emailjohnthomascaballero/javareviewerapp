@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'javascreen.dart';
 import '/widgets/drawerwidget.dart';
+import 'categoryscreen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -24,8 +24,8 @@ class HomeScreen extends StatelessWidget {
           child: Text('GET STARTED'),
           // proceed to next screen
           onPressed: () {
-            Navigator.push(
-                context, MaterialPageRoute(builder: (context) => JavaScreen()));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => CategoryScreen()));
           },
           // proceed to next screen </>
         ),
