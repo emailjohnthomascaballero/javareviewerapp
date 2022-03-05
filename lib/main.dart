@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import '/screens/homescreen.dart';
 
@@ -6,6 +7,13 @@ void main() {
   //! SPLASH SCREEN
   FlutterNativeSplash.removeAfter(initialization);
   //! SPLASH SCREEN </>
+
+  //! LANDSCAPE ORIENTATION ONLY
+  WidgetsFlutterBinding.ensureInitialized(); //will make support in any device
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]);
+  //! LANDSCAPE ORIENTATION ONLY </>
 
   runApp(MyApp());
 }
