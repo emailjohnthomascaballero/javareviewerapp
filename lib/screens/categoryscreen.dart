@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 import 'homescreen.dart';
-import 'basicconceptscreen.dart';
+import 'basicconceptsscreen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
