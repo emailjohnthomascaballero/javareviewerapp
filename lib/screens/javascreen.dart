@@ -12,6 +12,16 @@ class JavaScreen extends StatelessWidget {
         title: Text('java'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
+      body: Container(
+        //! background image
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/java_screen.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        //! background image </>
+      ),
     );
   }
 }
