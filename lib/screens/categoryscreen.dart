@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 import 'homescreen.dart';
 import 'basicconceptsscreen.dart';
+import 'conditionalandloopsscreen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
@@ -92,7 +93,7 @@ class CategoryScreen extends StatelessWidget {
         break;
       case 1:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => ConditionalandLoopsScreen(),
         ));
         break;
       case 2:
