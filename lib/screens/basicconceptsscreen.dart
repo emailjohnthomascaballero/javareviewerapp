@@ -16,7 +16,7 @@ class BasicConceptsScreen extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/basicconcepts_screen.png'),
+            image: AssetImage('assets/default_screen.png'),
             fit: BoxFit.cover,
           ),
         ),
