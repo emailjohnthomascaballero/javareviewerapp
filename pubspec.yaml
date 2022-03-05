@@ -13,13 +13,14 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  
+  flutter_native_splash: ^2.0.4 #! SPLASH SCREEN
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 #! SPLASH SCREEN
-  flutter_native_splash: ^2.0.4
+  #flutter_native_splash: ^2.0.4
 
 flutter_native_splash:
 
