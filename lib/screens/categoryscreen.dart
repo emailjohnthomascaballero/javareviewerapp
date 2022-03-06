@@ -3,6 +3,9 @@ import '/widgets/drawerwidget.dart';
 import 'homescreen.dart';
 import 'basicconceptsscreen.dart';
 import 'conditionalandloopsscreen.dart';
+import 'arraysscreen.dart';
+import 'classesandobjectsscreen.dart';
+import 'exceptionsandthreadsscreen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
@@ -98,17 +101,17 @@ class CategoryScreen extends StatelessWidget {
         break;
       case 2:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => ArraysScreen(),
         ));
         break;
       case 3:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => ClassesandObjectsScreen(),
         ));
         break;
       case 4:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => ExceptionsandThreadsScreen(),
         ));
         break;
     }
