@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'basicconcept/basicconceptsscreen2.dart';
+import 'package:java_reviewer_app/screens/categoryscreen.dart';
 
-class BasicConceptsScreen extends StatelessWidget {
-  const BasicConceptsScreen({Key? key}) : super(key: key);
+class BasicConceptsScreen3 extends StatelessWidget {
+  const BasicConceptsScreen3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,13 +23,11 @@ class BasicConceptsScreen extends StatelessWidget {
             minimumSize: Size(300, 50),
             primary: Color.fromARGB(255, 63, 63, 63),
           ),
-          child: Text('GET STARTED'),
+          child: Text('FINISH'),
           // proceed to next screen
           onPressed: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => BasicConceptsScreen2()));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => CategoryScreen()));
           },
           // proceed to next screen </>
         ),
@@ -38,7 +36,7 @@ class BasicConceptsScreen extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/basicconcepts_screen.png'),
+            image: AssetImage('assets/basicconcepts_screen_3.png'),
             fit: BoxFit.cover,
           ),
         ),

@@ -9,7 +9,7 @@ void main() {
   //! SPLASH SCREEN </>
 
   //! LANDSCAPE ORIENTATION ONLY
-  WidgetsFlutterBinding.ensureInitialized(); //will make support in any device
+  WidgetsFlutterBinding.ensureInitialized(); //make it support in any device
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
