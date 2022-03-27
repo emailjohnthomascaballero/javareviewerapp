@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'basicconceptsscreen2.dart';
+import 'basicconceptsscreen10.dart';
 
 class BasicConceptsScreen9 extends StatelessWidget {
   const BasicConceptsScreen9({Key? key}) : super(key: key);
@@ -29,7 +29,7 @@ class BasicConceptsScreen9 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => BasicConceptsScreen2()));
+                    builder: (context) => BasicConceptsScreen10()));
           },
           // proceed to next screen </>
         ),
