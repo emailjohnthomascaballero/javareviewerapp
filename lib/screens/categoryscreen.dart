@@ -96,7 +96,7 @@ class CategoryScreen extends StatelessWidget {
         break;
       case 1:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => ConditionalandLoopsScreen(),
+          builder: (context) => ConditionalAndLoopsScreen(),
         ));
         break;
       case 2:
