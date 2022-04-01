@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'arrays/arraysscreen2.dart';
+import '../conditionalandloopsscreen.dart';
 
-class ArraysScreen extends StatelessWidget {
-  const ArraysScreen({Key? key}) : super(key: key);
+class ConditionalAndLoopsScreen2 extends StatelessWidget {
+  const ConditionalAndLoopsScreen2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('ARRAYS'),
+        title: Text('CONDITIONAL AND LOOPS'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -26,8 +26,10 @@ class ArraysScreen extends StatelessWidget {
           child: Text('NEXT'),
           // proceed to next screen
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => ArraysScreen2()));
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => ConditionalAndLoopsScreen()));
           },
           // proceed to next screen </>
         ),
@@ -36,7 +38,7 @@ class ArraysScreen extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/arrays_screen_1.png'),
+            image: AssetImage('assets/conditionalsandloops_screen_2.png'),
             fit: BoxFit.cover,
           ),
         ),

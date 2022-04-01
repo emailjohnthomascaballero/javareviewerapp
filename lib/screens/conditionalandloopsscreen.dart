@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'conditionalandloopsscreen2.dart';
+import 'conditionalandloops/conditionalandloopsscreen2.dart';
 
 class ConditionalAndLoopsScreen extends StatelessWidget {
   const ConditionalAndLoopsScreen({Key? key}) : super(key: key);
