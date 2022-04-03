@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'classesandobjects/classesandobjectsscreen2.dart';
+//import 'arraysscreen2.dart';
 
-class ClassesandObjectsScreen extends StatelessWidget {
-  const ClassesandObjectsScreen({Key? key}) : super(key: key);
+class ClassesandObjectsScreen2 extends StatelessWidget {
+  const ClassesandObjectsScreen2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class ClassesandObjectsScreen extends StatelessWidget {
             minimumSize: Size(300, 50),
             primary: Color.fromARGB(255, 63, 63, 63),
           ),
-          child: Text('GET STARTED'),
+          child: Text('NEXT'),
           // proceed to next screen
           onPressed: () {
             Navigator.push(
@@ -38,7 +38,7 @@ class ClassesandObjectsScreen extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/classesandobjects_screen_1.png'),
+            image: AssetImage('assets/classesandobjects_screen_2.png'),
             fit: BoxFit.cover,
           ),
         ),
