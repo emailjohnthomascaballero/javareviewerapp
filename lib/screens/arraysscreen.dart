@@ -23,7 +23,7 @@ class ArraysScreen extends StatelessWidget {
             minimumSize: Size(300, 50),
             primary: Color.fromARGB(255, 63, 63, 63),
           ),
-          child: Text('NEXT'),
+          child: Text('GET STARTED'),
           // proceed to next screen
           onPressed: () {
             Navigator.push(context,

@@ -62,7 +62,7 @@ class CategoryScreen extends StatelessWidget {
               height: 30,
             ),
             drawerItem(
-              text: 'EXCEPTIONS AND THREADS',
+              text: 'EXCEPTIONS, LISTS, THREADS & FILES',
               onClicked: () => selectedItem(context, 5),
             ),
           ],
@@ -124,7 +124,7 @@ class CategoryScreen extends StatelessWidget {
         break;
       case 5:
         Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => ExceptionsandThreadsScreen(),
+          builder: (context) => ExceptionsAndThreadsScreen(),
         ));
         break;
     }

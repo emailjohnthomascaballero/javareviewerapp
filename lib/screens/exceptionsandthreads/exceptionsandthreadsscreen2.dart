@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-//import 'moreonclassesscreen4';
+//import 'exceptionsandthreadsscreen3.dart';
 
-class MoreOnClassesScreen3 extends StatelessWidget {
-  const MoreOnClassesScreen3({Key? key}) : super(key: key);
+class ExceptionsAndThreadsScreen2 extends StatelessWidget {
+  const ExceptionsAndThreadsScreen2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('MORE ON CLASSES'),
+        title: Text('EXCEPTIONS THREADS ETC.'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -29,7 +29,7 @@ class MoreOnClassesScreen3 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => MoreOnClassesScreen3()));
+                    builder: (context) => ExceptionsAndThreadsScreen2()));
           },
           // proceed to next screen </>
         ),
@@ -38,7 +38,7 @@ class MoreOnClassesScreen3 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/moreonclasses_screen_3.png'),
+            image: AssetImage('assets/exceptionsandthreads_screen_2.png'),
             fit: BoxFit.cover,
           ),
         ),
