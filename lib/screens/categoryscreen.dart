@@ -6,6 +6,7 @@ import 'conditionalandloopsscreen.dart';
 import 'arraysscreen.dart';
 import 'classesandobjectsscreen.dart';
 import 'exceptionsandthreadsscreen.dart';
+import 'moreonclassesscreen.dart';
 
 class CategoryScreen extends StatelessWidget {
   final padding = EdgeInsets.symmetric(horizontal: 20);
@@ -54,8 +55,15 @@ class CategoryScreen extends StatelessWidget {
               height: 30,
             ),
             drawerItem(
-              text: 'EXCEPTIONS AND THREADS',
+              text: 'MORE ON CLASSES',
               onClicked: () => selectedItem(context, 4),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            drawerItem(
+              text: 'EXCEPTIONS AND THREADS',
+              onClicked: () => selectedItem(context, 5),
             ),
           ],
         ),
@@ -110,6 +118,11 @@ class CategoryScreen extends StatelessWidget {
         ));
         break;
       case 4:
+        Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => MoreOnClassesScreen(),
+        ));
+        break;
+      case 5:
         Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => ExceptionsandThreadsScreen(),
         ));

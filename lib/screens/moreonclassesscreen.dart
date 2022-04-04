@@ -1,15 +1,17 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
-import 'basicconceptsscreen.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+import 'moreonclasses/moreonclassesscreen2.dart';
+
+class MoreOnClassesScreen extends StatelessWidget {
+  const MoreOnClassesScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
+        title: Text('MORE ON CLASSES'),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -24,8 +26,10 @@ class HomeScreen extends StatelessWidget {
           child: Text('GET STARTED'),
           // proceed to next screen
           onPressed: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (context) => BasicConceptsScreen()));
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => MoreOnClassesScreen2()));
           },
           // proceed to next screen </>
         ),
@@ -34,7 +38,7 @@ class HomeScreen extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/home_screen.png'),
+            image: AssetImage('assets/moreonclasses_screen_1.png'),
             fit: BoxFit.cover,
           ),
         ),
