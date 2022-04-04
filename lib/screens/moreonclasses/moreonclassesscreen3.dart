@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'moreonclassesscreen3.dart';
+//import '';
 
-class MoreOnClassesScreen2 extends StatelessWidget {
-  const MoreOnClassesScreen2({Key? key}) : super(key: key);
+class MoreOnClassesScreen3 extends StatelessWidget {
+  const MoreOnClassesScreen3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +38,7 @@ class MoreOnClassesScreen2 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/moreonclasses_screen_2.png'),
+            image: AssetImage('assets/moreonclasses_screen_3.png'),
             fit: BoxFit.cover,
           ),
         ),
