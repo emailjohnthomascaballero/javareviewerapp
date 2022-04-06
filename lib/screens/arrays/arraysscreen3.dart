@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'arraysscreen3.dart';
+//import 'arraysscreen4.dart';
 
-class ArraysScreen2 extends StatelessWidget {
-  const ArraysScreen2({Key? key}) : super(key: key);
+class ArraysScreen3 extends StatelessWidget {
+  const ArraysScreen3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class ArraysScreen2 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/arrays_screen_2.png'),
+            image: AssetImage('assets/arrays_screen_3.png'),
             fit: BoxFit.cover,
           ),
         ),
