@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'classesandobjectsscreen3.dart';
+import 'classesandobjectsscreen4.dart';
 
-class ClassesandObjectsScreen2 extends StatelessWidget {
-  const ClassesandObjectsScreen2({Key? key}) : super(key: key);
+class ClassesandObjectsScreen3 extends StatelessWidget {
+  const ClassesandObjectsScreen3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class ClassesandObjectsScreen2 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ClassesandObjectsScreen3()));
+                    builder: (context) => ClassesandObjectsScreen4()));
           },
           // proceed to next screen </>
         ),
@@ -38,7 +38,7 @@ class ClassesandObjectsScreen2 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/classesandobjects_screen_2.png'),
+            image: AssetImage('assets/classesandobjects_screen_3.png'),
             fit: BoxFit.cover,
           ),
         ),
