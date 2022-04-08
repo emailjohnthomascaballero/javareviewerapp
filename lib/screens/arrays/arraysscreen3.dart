@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-//import 'arraysscreen4.dart';
+import 'arraysscreen4.dart';
 
 class ArraysScreen3 extends StatelessWidget {
   const ArraysScreen3({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class ArraysScreen3 extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('ARRAYS'),
+        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -27,7 +27,7 @@ class ArraysScreen3 extends StatelessWidget {
           // proceed to next screen
           onPressed: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => ArraysScreen3()));
+                MaterialPageRoute(builder: (context) => ArraysScreen4()));
           },
           // proceed to next screen </>
         ),

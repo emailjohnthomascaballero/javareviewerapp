@@ -11,7 +11,7 @@ class BasicConceptsScreen12 extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('BASIC CONCEPTS'),
+        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -29,7 +29,7 @@ class BasicConceptsScreen12 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => BasicConceptsScreen11()));
+                    builder: (context) => BasicConceptsScreen12()));
           },
           // proceed to next screen </>
         ),

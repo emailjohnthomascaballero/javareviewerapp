@@ -11,7 +11,7 @@ class ClassesandObjectsScreen3 extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('CLASSES AND OBJECTS'),
+        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(

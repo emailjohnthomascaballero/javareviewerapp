@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import '../conditionalandloopsscreen.dart';
+import 'conditionalandloopsscreen3.dart';
 
 class ConditionalAndLoopsScreen2 extends StatelessWidget {
   const ConditionalAndLoopsScreen2({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class ConditionalAndLoopsScreen2 extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('CONDITIONAL AND LOOPS'),
+        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -29,7 +29,7 @@ class ConditionalAndLoopsScreen2 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ConditionalAndLoopsScreen()));
+                    builder: (context) => ConditionalAndLoopsScreen3()));
           },
           // proceed to next screen </>
         ),

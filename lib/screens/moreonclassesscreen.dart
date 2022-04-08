@@ -11,7 +11,7 @@ class MoreOnClassesScreen extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text('MORE ON CLASSES'),
+        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
