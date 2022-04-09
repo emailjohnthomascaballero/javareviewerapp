@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'basicconceptsscreen11.dart';
+//import 'basicconceptsscreen13.dart';
 
 class BasicConceptsScreen12 extends StatelessWidget {
   const BasicConceptsScreen12({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-//import 'moreonclassesscreen4';
+import 'moreonclassesscreen4.dart';
 
 class MoreOnClassesScreen3 extends StatelessWidget {
   const MoreOnClassesScreen3({Key? key}) : super(key: key);
@@ -11,7 +11,6 @@ class MoreOnClassesScreen3 extends StatelessWidget {
     return Scaffold(
       drawer: DrawerWidget(),
       appBar: AppBar(
-        title: Text(''),
         backgroundColor: Color.fromARGB(255, 39, 39, 39),
       ),
       body: Container(
@@ -29,7 +28,7 @@ class MoreOnClassesScreen3 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => MoreOnClassesScreen3()));
+                    builder: (context) => MoreOnClassesScreen4()));
           },
           // proceed to next screen </>
         ),
