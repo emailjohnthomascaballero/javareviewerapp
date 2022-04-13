@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'conditionalandloopsscreen23.dart';
+import 'conditionalandloopsscreen25.dart';
 
-class ConditionalAndLoopsScreen22 extends StatelessWidget {
-  const ConditionalAndLoopsScreen22({Key? key}) : super(key: key);
+class ConditionalAndLoopsScreen24 extends StatelessWidget {
+  const ConditionalAndLoopsScreen24({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class ConditionalAndLoopsScreen22 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ConditionalAndLoopsScreen23()));
+                    builder: (context) => ConditionalAndLoopsScreen25()));
           },
           // proceed to next screen </>
         ),
@@ -37,7 +37,7 @@ class ConditionalAndLoopsScreen22 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/conditionalsandloops_screen_22.png'),
+            image: AssetImage('assets/conditionalsandloops_screen_24.png'),
             fit: BoxFit.cover,
           ),
         ),
