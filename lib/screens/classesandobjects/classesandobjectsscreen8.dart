@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-//import 'classesandobjectsscreen9.dart';
+import 'classesandobjectsscreen9.dart';
 
 class ClassesandObjectsScreen8 extends StatelessWidget {
   const ClassesandObjectsScreen8({Key? key}) : super(key: key);
@@ -28,7 +28,7 @@ class ClassesandObjectsScreen8 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ClassesandObjectsScreen8()));
+                    builder: (context) => ClassesandObjectsScreen9()));
           },
           // proceed to next screen </>
         ),
