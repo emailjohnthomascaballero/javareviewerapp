@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'exceptionsandthreadsscreen6.dart';
+import 'exceptionsandthreadsscreen32.dart';
 
-class ExceptionsAndThreadsScreen5 extends StatelessWidget {
-  const ExceptionsAndThreadsScreen5({Key? key}) : super(key: key);
+class ExceptionsAndThreadsScreen31 extends StatelessWidget {
+  const ExceptionsAndThreadsScreen31({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,7 @@ class ExceptionsAndThreadsScreen5 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => ExceptionsAndThreadsScreen6()));
+                    builder: (context) => ExceptionsAndThreadsScreen32()));
           },
           // proceed to next screen </>
         ),
@@ -37,7 +37,7 @@ class ExceptionsAndThreadsScreen5 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/exceptionsandthreads_screen_5.png'),
+            image: AssetImage('assets/exceptionsandthreads_screen_31.png'),
             fit: BoxFit.cover,
           ),
         ),
