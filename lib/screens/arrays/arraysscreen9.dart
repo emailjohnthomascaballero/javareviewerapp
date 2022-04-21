@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'arraysscreen6.dart';
+import 'arraysscreen10.dart';
 
-class ArraysScreen5 extends StatelessWidget {
-  const ArraysScreen5({Key? key}) : super(key: key);
+class ArraysScreen9 extends StatelessWidget {
+  const ArraysScreen9({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class ArraysScreen5 extends StatelessWidget {
           // proceed to next screen
           onPressed: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => ArraysScreen6()));
+                MaterialPageRoute(builder: (context) => ArraysScreen10()));
           },
           // proceed to next screen </>
         ),
@@ -35,7 +35,7 @@ class ArraysScreen5 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/arrays_screen_5.png'),
+            image: AssetImage('assets/arrays_screen_9.png'),
             fit: BoxFit.cover,
           ),
         ),
