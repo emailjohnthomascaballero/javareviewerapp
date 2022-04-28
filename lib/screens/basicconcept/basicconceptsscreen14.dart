@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '/widgets/drawerwidget.dart';
 
-import 'basicconceptsscreen13.dart';
+import 'basicconceptsscreen15.dart';
 
-class BasicConceptsScreen12 extends StatelessWidget {
-  const BasicConceptsScreen12({Key? key}) : super(key: key);
+class BasicConceptsScreen14 extends StatelessWidget {
+  const BasicConceptsScreen14({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class BasicConceptsScreen12 extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                    builder: (context) => BasicConceptsScreen13()));
+                    builder: (context) => BasicConceptsScreen15()));
           },
           // proceed to next screen </>
         ),
@@ -38,7 +38,7 @@ class BasicConceptsScreen12 extends StatelessWidget {
         //! background image
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/basicconcepts_screen_12.png'),
+            image: AssetImage('assets/basicconcepts_screen_14.png'),
             fit: BoxFit.cover,
           ),
         ),
