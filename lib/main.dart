@@ -8,12 +8,12 @@ void main() {
   FlutterNativeSplash.removeAfter(initialization);
   //! SPLASH SCREEN </>
 
-  //! LANDSCAPE ORIENTATION ONLY
+  //! PORTRAIT ORIENTATION ONLY
   WidgetsFlutterBinding.ensureInitialized(); //make it support in any device
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
   ]);
-  //! LANDSCAPE ORIENTATION ONLY </>
+  //! PORTRAIT ORIENTATION ONLY </>
 
   runApp(MyApp());
 }
